@@ -27,9 +27,9 @@ Example usage:
   ```print
   katz_deli = []
 
-  take_a_number(katz_deli, "Jerry") #=> 1
-  take_a_number(katz_deli, "Elaine") #=> 2
-  take_a_number(katz_deli, "George") #=> 3
+  take_a_number(katz_deli, "Jerry") #=> Welcome, Jerry. You are number 1 in line.
+  take_a_number(katz_deli, "Elaine") #=> Welcome, Elaine. You are number 2 in line.
+  take_a_number(katz_deli, "George") #=> Welcome, George. You are number 3 in line.
 
   line(katz_deli) #=> "The line is currently: 1. Jerry 2. Elaine 3. George"
 
@@ -37,7 +37,7 @@ Example usage:
 
   line(katz_deli) #=> "The line is currently: 1. Elaine 2. George"
 
-  take_a_number(katz_deli, "Kramer") #=> 3
+  take_a_number(katz_deli, "Kramer") #=> Welcome, Kramer. You are number 3 in line.
 
   line(katz_deli) #=> "The line is currently: 1. Elaine 2. George 3. Kramer"
 
@@ -45,3 +45,14 @@ Example usage:
 
   line(katz_deli) #=> "The line is currently: 1. George 2. Kramer"
   ```
+
+###Running Python Tests
+To run the tests at any point as you work through your lab, make sure you are in the lab directory and then run the command `python deli_test.py`. If any test fails, you will understand what the test was checking.
+
+To check the output before testing, you can print the value that is being returned by any function.
+```python
+def my_function():
+  return "This is a a function"
+
+print my_function()  
+```
