@@ -1,8 +1,8 @@
 # Deli Counter - Take a Number
 
 ## Objectives
-1. Practice building functions that use iteration and controlling their return values.
-2. Practice manipulating lists (adding elements, removing elements, etc.).
+1. Build functions that use iteration and controlling their return values.
+2. Manipulate lists (adding elements, removing elements, etc.).
 
 ## Instructions
 
